@@ -1,6 +1,6 @@
 export const runtime = 'edge';
 
-const START_TIME = new Date("2026-02-13T20:42:00Z");
+const START_TIME = new Date("2026-02-13T20:43:00Z");
 
 const END_TIME = new Date(
   START_TIME.getFullYear() + 2,
@@ -16,6 +16,7 @@ export async function GET() {
     endTime: END_TIME.toISOString()
   });
 }
+
 
 
 
