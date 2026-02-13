@@ -1,8 +1,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Countdown",
-  description: "Server stored countdown"
+  title: "Aetheria",
+  description: "Countdown to Aetheria release."
 };
 
 export default function RootLayout({ children }) {
@@ -12,3 +12,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
