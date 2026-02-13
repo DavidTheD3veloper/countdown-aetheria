@@ -6,7 +6,7 @@ const END_TIME = new Date(
   START_TIME.getFullYear() + 2,
   START_TIME.getMonth() + 3,
   START_TIME.getDate() + 12,
-  START_TIME.getHours() + 5,
+  START_TIME.getHours() + 6,
   START_TIME.getMinutes() + 3,
   START_TIME.getSeconds() + 30
 );
@@ -16,6 +16,7 @@ export async function GET() {
     endTime: END_TIME.toISOString()
   });
 }
+
 
 
 
