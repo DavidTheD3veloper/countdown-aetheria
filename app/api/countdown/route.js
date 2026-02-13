@@ -1,4 +1,4 @@
-const START_TIME = new Date("2026-02-13T20:10:00Z");
+const START_TIME = new Date("2026-02-13T20:25:00Z");
 
 const END_TIME = new Date(
   START_TIME.getFullYear() + 2,
@@ -14,3 +14,4 @@ export async function GET() {
     endTime: END_TIME.toISOString()
   });
 }
+
