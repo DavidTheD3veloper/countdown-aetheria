@@ -53,15 +53,8 @@ export default function Home() {
 
   return (
     <main className="wrapper">
-      <h1>Aetheria Release Countdown</h1>
-      <div className="countdown">
-        {Object.entries(time).map(([label, value]) => (
-          <div className="box" key={label}>
-            <div className="value">{value}</div>
-            <div className="label">{label}</div>
-          </div>
-        ))}
-      </div>
+      <h1>Aetheria Notice</h1>
+      <h1>Aetheria is unreleased yet. Come back later!
     </main>
   );
 }
