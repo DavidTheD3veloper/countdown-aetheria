@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Aetheria",
-  description: "Countdown to Aetheria release."
+  description: "No description."
 };
 
 export default function RootLayout({ children }) {
